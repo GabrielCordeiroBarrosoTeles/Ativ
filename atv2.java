@@ -16,8 +16,7 @@ import javax.swing.JOptionPane;
 
 public class atv2 {
     public static void main(String[] args) {
-        int num;
-        num = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
+        int num = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
         if(num % 2 == 0){
             JOptionPane.showMessageDialog(null, "O número que você informou "+num+" é Par");
         }else {

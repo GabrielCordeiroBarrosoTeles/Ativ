@@ -22,11 +22,12 @@ public class atv1 {
         nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a segunda nota: "));
         nota3 = Float.parseFloat(JOptionPane.showInputDialog("Digite a terceira nota: "));
         media = (nota1 + nota2 + nota3) / 3;
+        // Formatando a média para ela ficar com apenas uma casa decimal
+        String mediaFormatada = String.format("%.1f", media);
         if(media >= 7){
-            JOptionPane.showMessageDialog(null, "Aprovado! Média: " + media);
+            JOptionPane.showMessageDialog(null, "Aprovado! Média: " + mediaFormatada);
         }else{
-            JOptionPane.showMessageDialog(null, "Reprovado! Média: " + media);
+            JOptionPane.showMessageDialog(null, "Reprovado! Média: " + mediaFormatada);
         }
-
     }
 }
