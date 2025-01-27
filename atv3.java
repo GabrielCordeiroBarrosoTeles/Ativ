@@ -1,3 +1,4 @@
+package Ativ;
 /*
     Desafio 2 - Médio: Números Primos
     Problema:

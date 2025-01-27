@@ -1,3 +1,4 @@
+package Ativ;
 /*
     Desafio 2 - Médio: Jogo de Adivinhação
     Problema:
